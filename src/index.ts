@@ -19,7 +19,7 @@ app.post("/webhook", (req, res) => {
     }
 
     // Customize this message however you want
-    const firstMessage = `Hi there! Thanks for calling. How can I help you today?`;
+    const firstMessage = `Hi there! My name is Zeals. I'm a sophisticated example assistant. This is mock text?`;
 
     res.json({
       assistantId,
